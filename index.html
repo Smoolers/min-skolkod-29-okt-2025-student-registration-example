@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/style.css">
+    <title>Mitt avancerade formulär! - Student Registration Form</title>
+</head>
+<body>
+    <section class="form-wrapper">
+        <h1 class="for-title">
+            Student Account Registration
+        </h1>
+        <form class="form">
+            <fieldset class="form-fieldset">
+                <legend class="form-legend">Student Information</legend>
+            <input type="text" class="form-input" placeholder="First Name"/>
+            <input type="text" class="form-input" placeholder="Last Name"/>
+            <input type="number" class="form-input" placeholder="Birth Date(yymmdd)"/>
+            <input type="email" class="form-input" placeholder="Email Adress">
+            <input type="phone" class="form-input" placeholder="Phone Number">
+            </fieldset>
+            <fieldset class="form-fieldset">
+                <legend class="form-legend">Adress Information</legend>
+            <input type="text" class="form-input" placeholder="Street Address">
+            <input type="text" class="form-input" placeholder="City">
+            <input type="text" class="form-input" placeholder="State / Province">
+            <input type="text" class="form-input" placeholder="Country">
+            <input type="text" class="form-input" placeholder="Zip Code">
+        </fieldset>
+        <fieldset class="fieldset-form">
+            <legend class="form-legend">Account Information</legend>
+            <input type="text" class="form-input" placeholder="Student ID">
+            <select name="accountType" id="accountType" class="form-select">
+                <option value="">-- Choose Account Type --</option>
+                <option value="Permanent">Permanent</option>
+                <option value="Temporary">Temporary</option>
+            </select>
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="password" class="form-input" placeholder="Repeat Password">
+            </fieldset>
+            <button class="form-button">Register Account</button>
+        </form>
+    </section>
+</body>
+</html>
